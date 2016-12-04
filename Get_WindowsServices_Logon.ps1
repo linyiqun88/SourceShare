@@ -4,4 +4,4 @@ Get-WMIObject Win32_Service | Where-Object{$serviceFilter.Contains($_.StartName)
 #Run on different Servers
 #Get-WMIObject Win32_Service -ComputerName comname | Where-Object{$serviceFilter.Contains($_.StartName)} | Format-Table name, startname, startmode, state
 #
-
+#
