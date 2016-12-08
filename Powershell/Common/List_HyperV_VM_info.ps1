@@ -1,0 +1,2 @@
+#Run on Hyper V's VM to list VM information
+get-vm | ?{$_.State -eq "Running"} | select -ExpandProperty networkadapters | select vmname, macaddress, switchname, ipaddresses | format-table -Property vmname, macaddress, switchname, ipaddresses
