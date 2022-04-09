@@ -5,6 +5,7 @@
 
 $serviceFilter = "LocalSystem"#, "NT AUTHORITY\NetworkService"
 #Testing on local 
-Get-WMIObject Win32_Service | Where-Object{$serviceFilter.Contains($_.StartName)} | Format-Table name, startname, startmode, state
+#Get-WMIObject Win32_Service | Where-Object{$serviceFilter.Contains($_.StartName)} | Format-Table name, startname, startmode, state 
+Get-WMIObject Win32_Service | Where-Object{$serviceFilter.Contains($_.StartName)} | Out-GridView
 #Run on different Servers.
 
