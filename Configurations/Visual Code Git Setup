@@ -1,0 +1,4 @@
+Need to run the following commands on the first time setup for the visual code to connect to git
+
+git config --global user.email "linyiq88@outlook.com"
+git config --global user.name "Clement"  
