@@ -1,10 +1,10 @@
-$param0 = "Server Instance"   #Server Instance
-$param1 = "Database name"   #Database Name but generated script has hardcoded database name
-$param2 = ""   #User 
-$param3 = ""   #Password
-$param4 = "D:\SQLBackup\Tables\Test_Create"   #Folder location
+$param0 = "LAPTOP-AG45SSRH\SQLEXPRESS"   #Server Instance
+$param1 = "Development"   #Database Name but generated script has hardcoded database name
+$param2 = "user1"   #User 
+$param3 = "P@ssw0rd"   #Password
+$param4 = "E:\Codes\VisualCode\SourceShare\SQL"   #Folder location
 #[string]$param5 = "$($(Get-Location).Path)\DeploymentLogs_$(Get-Date -format yyyyMMdd).txt " #Logs location
-[string]$param5 = "D:\SQLBackup\DeploymentLogs_Table_TestCreate_$(Get-Date -format yyyyMMdd).txt " #Logs location
+[string]$param5 = "E:\Temp\DeploymentLogs_Table_TestCreate_$(Get-Date -format yyyyMMdd).txt " #Logs location
 #D:\SQLBackup\RestoreFromBoxA
 
 
